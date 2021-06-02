@@ -17,7 +17,18 @@
     justify-content: space-between;
 }
 
-.three {
+.three {display:flex; justify-content: space-between;}
+.three ul {display:flex; list-style:none;}
+.three ul li {padding-left:20px;}
 
+
+.four {
+    display: flex;
 
 }
+
+.five {
+    display: flex;
+    flex-basis: auto;
+}
+
